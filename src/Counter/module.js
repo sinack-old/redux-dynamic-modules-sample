@@ -5,6 +5,8 @@ const counterModule = () => {
     id: "counter",
     reducerMap: {
       counter: couterReducer,
+      // initialActions: [hogeAction()],
+      // finalActions: [hugaAction()],
     },
   };
 };
