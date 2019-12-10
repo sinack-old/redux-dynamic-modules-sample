@@ -27,10 +27,10 @@ const MessagesList = () => {
           }}
         >
           <input ref={node => (input = node)} />
-          <button type="submit">メッセージを追加</button>
+          <button type="submit">Add Message</button>
         </form>
       </div>
-      <div>メッセージ一覧</div>
+      <div>Messages List</div>
       <ul>{showMessages(messagesStore)}</ul>
     </div>
   );

@@ -8,7 +8,7 @@ const Counter = () => {
 
   return (
     <div>
-      <div>カウンター：{counterStore}</div>
+      <div>counter: {counterStore}</div>
       <button onClick={() => increment()}>+1</button>
       <button onClick={() => decrement()}>-1</button>
     </div>
